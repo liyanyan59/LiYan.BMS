@@ -1,0 +1,44 @@
+package com.liyan.BMS.service;
+
+import com.liyan.BMS.dao.impl.UserDaoImpl;
+import com.liyan.BMS.entity.User;
+
+public class UserService {
+	
+
+	private static UserDaoImpl userDao = new UserDaoImpl();
+	/*public UserService() {
+		
+		userDao = new UserDaoImpl();
+	}*/
+	
+	
+	public static User login(User user) {
+		return userDao.checkUser(user);
+	}
+	
+	public static int registerUser(User user) {
+		if(userDao.checkUser(user)!=null) {
+			return 1;//此用户已存在
+		}else {
+			boolean res=userDao.saveUser(user);
+			if(res) {
+				return 2;//注册成功
+			}else {
+				return 3;//注册失败
+			}
+		}
+	}
+	
+/*	
+	//用户登录，返回登录用户的信息（对象）
+	public static User login(User user) {
+		return user;
+	
+	}
+	//注册用户
+	public static int registerUser(User user) {
+		// TODO Auto-generated method stub
+		return 0;
+	}*/
+}
