@@ -57,7 +57,6 @@ public class BaseDao {
 			e.printStackTrace();
 		}
 	}
-
 	/*
 	 * 这个方法可以完成增删改所有的操作
 	 * 返回bool值
