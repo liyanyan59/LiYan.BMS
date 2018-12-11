@@ -7,19 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65087e2a-f16d-4519-b670-7a397b615245" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_39_bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_39_bin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LiYan_BMS_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LiYan_BMS_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiYan.BMS.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/liyan/BMS/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/liyan/BMS/dao/impl/BookDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/liyan/BMS/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/liyan/BMS/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/liyan/BMS/view/AdminMainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LiYan_BMS_jar/LiYan.BMS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LiYan_BMS_jar/LiYan.BMS.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,12 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="44">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
+                <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookDaoImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/BookDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2012">
+            <state relative-caret-position="-1855">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -173,11 +164,11 @@
         <option value="$PROJECT_DIR$/src/com/liyan/BMS/view/UserMainView.java" />
         <option value="$PROJECT_DIR$/src/com/liyan/BMS/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/liyan/BMS/view/AdminMainView.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/BookDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/RecordDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -213,36 +204,6 @@
               <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="LiYan.BMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiYan.BMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiYan.BMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="BMS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiYan.BMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="BMS" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiYan.BMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="BMS" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
@@ -341,11 +302,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21244925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21244925" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32882273" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32882273" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19403893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19403893" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" weight="0.32935917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -729,16 +690,6 @@
     <entry file="file://$PROJECT_DIR$/error.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liyan/BMS/dao/RecordDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-82">
@@ -781,11 +732,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/liyan/BMS/dao/impl/BookDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2012">
+        <state relative-caret-position="-1855">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
