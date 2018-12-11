@@ -1,4 +1,4 @@
-package com.liyan.BMS.entity;
+package liyan.BMS.entity;
 
 public class Book {
 	private String bookId;
