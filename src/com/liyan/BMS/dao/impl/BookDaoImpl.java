@@ -2,7 +2,6 @@ package liyan.BMS.dao.impl;
 
 import java.util.ArrayList;
 import java.util.List;
-import liyan.BMS.dao.impl.BaseDao;
 import liyan.BMS.dao.BookDao;
 import liyan.BMS.entity.Book;
 

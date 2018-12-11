@@ -2,7 +2,6 @@ package liyan.BMS.dao.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-import liyan.BMS.dao.impl.BaseDao;
 import liyan.BMS.dao.UserDao;
 import liyan.BMS.entity.User;
 
@@ -19,7 +18,7 @@ public class UserDaoImpl extends BaseDao implements UserDao {
 
 	@Override
 	public boolean delUser(int id) {
-		String sql="delete from user where id=?";
+		String sql="delete from system_db.user where id=?";
 		List<Object>params=new ArrayList<Object>();
 		params.add(id);
 		return this.operateUpdate(sql, params);
@@ -27,7 +26,7 @@ public class UserDaoImpl extends BaseDao implements UserDao {
 
 	@Override
 	public boolean updateUser(User user) {
-		String sql="update user set userId=?,userType=? where id=?";
+		String sql="update system_db.user set userId=?,userType=? where id=?";
 		List<Object>params=new ArrayList<Object>();
 		params.add(user.getId());
 		params.add(user.getType());
