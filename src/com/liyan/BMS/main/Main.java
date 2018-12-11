@@ -1,6 +1,6 @@
 package com.liyan.BMS.test;
 
-import com.liyan.BMS.view.LoginView;
+import liyan.BMS.view.LoginView;
 
 public class Main {
 

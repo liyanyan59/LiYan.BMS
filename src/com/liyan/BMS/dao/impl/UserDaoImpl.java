@@ -1,7 +1,8 @@
-package com.liyan.BMS.dao.impl;
+package liyan.BMS.dao.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.liyan.BMS.dao.impl.BaseDao;
 import com.liyan.BMS.dao.UserDao;
 import com.liyan.BMS.entity.User;
 
@@ -40,6 +41,23 @@ public class UserDaoImpl extends BaseDao implements UserDao {
 		List<Object>params=new ArrayList<Object>();
 		params.add(user.getId());
 		params.add(user.getType());
+		try {
+			uList=this.operateQuery(sql, params, User.class);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		if(uList.size()>0) {
+			return uList.get(0);
+		}
+		return null;
+	}
+
+	@Override
+	public User checkUserById(String userId) {
+		List<User> uList=null;
+		String sql="SELECT userId FROM system_db.user where userId=?";
+		List<Object>params=new ArrayList<Object>();
+		params.add(userId);
 		try {
 			uList=this.operateQuery(sql, params, User.class);
 		} catch (Exception e) {

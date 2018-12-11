@@ -1,17 +1,11 @@
-package com.liyan.BMS.view;
+package liyan.BMS.view;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JDesktopPane;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 import com.liyan.BMS.entity.User;
 
@@ -86,7 +80,7 @@ public class AdminMainView extends JFrame {
 		this.setSize(1000, 600);
 		this.setVisible(true);
 		this.setResizable(false);
-		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 		this.setLocationRelativeTo(null);
 		
 	}
@@ -97,7 +91,7 @@ public class AdminMainView extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				AdminAddView aav=new AdminAddView(user);
+				AdminAddView aav= new AdminAddView(user);
 				funcDesktop.add(aav);//把指定的视图窗口添加到桌面容器当中
 				aav.toFront();//视图显示在最前
 			}

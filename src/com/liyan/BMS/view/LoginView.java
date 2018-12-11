@@ -1,4 +1,4 @@
-package com.liyan.BMS.view;
+package liyan.BMS.view;
 
 
 import java.awt.event.ActionEvent;
@@ -8,7 +8,9 @@ import javax.swing.*;
 
 
 import com.liyan.BMS.entity.User;
-import com.liyan.BMS.service.UserService;
+import liyan.BMS.service.UserService;
+
+import static liyan.BMS.service.UserService.isUserExist;
 
 public class LoginView extends JFrame {
 
@@ -17,7 +19,7 @@ public class LoginView extends JFrame {
 	 */
 	private static final long serialVersionUID = 5844352042362133886L;
 
-	private JPanel bgpanel=new JPanel();//创建一个面板
+//	private JPanel bgpanel=new JPanel();//创建一个面板
 	
 	private JLabel lbLogin=new JLabel("学号/账号");//创建登录标签
 	
@@ -25,7 +27,7 @@ public class LoginView extends JFrame {
 	private JLabel lbImg = null;//放图片
 	
 	private JButton btLogin = new JButton("登录");//创建登录按钮
-	//private JButton btRegister = new JButton("注册");//创建注册按钮
+	private JButton btRegister = new JButton("注册");//创建注册按钮
 	
 	private JTextField tfLogin = new JTextField();//创建学号输入框
 	private JComboBox<String> cbType=new JComboBox<String>(new String[] {"学生","管理员"});
@@ -55,13 +57,13 @@ public class LoginView extends JFrame {
 		
 		
 		//添加组件到bgpanel中，布局为流布局
-		bgpanel.setLayout(null);
+		this.setLayout(null);
 		add(lbLogin);
 		add(tfLogin);
 		add(lbType);
 		add(cbType);
 		add(btLogin);
-		//add(btRegister);
+		add(btRegister);
 		
 		//设置组件位置
 		lbLogin.setBounds(95, 130, 100, 30);
@@ -69,10 +71,10 @@ public class LoginView extends JFrame {
 		lbType.setBounds(95, 180, 100, 30);
 		cbType.setBounds(200, 180, 215, 40);
 		btLogin.setBounds(450, 180, 140, 40);
-		//btRegister.setBounds(255, 230, 140, 35);
+		btRegister.setBounds(255, 230, 140, 35);
 		
-		bgpanel.setOpaque(false);//设为透明
-		getContentPane().add(bgpanel);//添加bgpanel到窗体
+//		bgpanel.setOpaque(false);//设为透明
+//		getContentPane().add(bgpanel);//添加bgpanel到窗体
 		
 	}
 	
@@ -105,26 +107,38 @@ public class LoginView extends JFrame {
 						LoginView.this.dispose();
 					}
 				}else {
-					User user1=new User(userId, userType);
-					int status=UserService.registerUser(user1);
-					if(2==status) {
-						JOptionPane.showMessageDialog(LoginView.this,"注册成功!");
-						if(user1.getType()==1) {
-							
-							new UserMainView(user1);
-							LoginView.this.dispose();
-							
+					if(isUserExist(userId)){
+						JOptionPane.showMessageDialog(LoginView.this,"换个账号吧，这个账号已存在但是账户类型不正确！");
+					}else{
+						int option = JOptionPane.showConfirmDialog(LoginView.this,"是否以该账号注册?");
+						if(option==0) {
+
+							User user1 = new User(userId, userType);
+
+							int status = UserService.registerUser(user1);
+							if (2 == status) {
+								JOptionPane.showMessageDialog(LoginView.this, "注册成功!");
+								if (user1.getType() == 2) {
+									new AdminMainView(user1);
+									LoginView.this.dispose();
+
+								} else if (user1.getType() == 1) {
+									new UserMainView(user1);
+									LoginView.this.dispose();
+								}
+							} else if (3 == status) {
+								JOptionPane.showMessageDialog(LoginView.this, "注册失败!");
 							}
-						else if(user1.getType()==2){
-							new AdminMainView(user1);
-							LoginView.this.dispose();
 						}
-					}else if(3==status) {
-						JOptionPane.showMessageDialog(LoginView.this,"注册失败!");
 					}
 				}
 				
 			}
+		});
+
+		btRegister.addActionListener(e -> {
+			new RegisterView();
+			LoginView.this.dispose();
 		});
 				
 		

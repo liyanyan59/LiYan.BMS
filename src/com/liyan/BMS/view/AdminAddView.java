@@ -1,4 +1,4 @@
-package com.liyan.BMS.view;
+package liyan.BMS.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,8 +12,8 @@ import javax.swing.JTextField;
 import com.liyan.BMS.dao.impl.BookDaoImpl;
 import com.liyan.BMS.entity.Book;
 import com.liyan.BMS.entity.User;
-import com.liyan.BMS.service.BookService;
-import com.liyan.BMS.service.UserService;
+import liyan.BMS.service.BookService;
+import liyan.BMS.service.UserService;
 
 public class AdminAddView extends JInternalFrame {
 

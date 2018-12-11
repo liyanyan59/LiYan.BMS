@@ -1,5 +1,6 @@
-package com.liyan.BMS.dao.impl;
+package liyan.BMS.dao.impl;
 
+import com.liyan.BMS.dao.impl.BaseDao;
 import java.util.ArrayList;
 import java.util.List;
 

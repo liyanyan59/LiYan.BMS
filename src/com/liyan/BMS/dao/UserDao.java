@@ -7,5 +7,6 @@ public interface UserDao {
 	public boolean delUser(int id);//删除用户
 	public boolean updateUser(User user);//更新用户
 	public User checkUser(User user);//查询用户
-	
+
+	public User checkUserById(String userId);//根据用户Id查询用户
 }

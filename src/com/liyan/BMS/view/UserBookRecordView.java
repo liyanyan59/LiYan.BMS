@@ -1,9 +1,11 @@
-package com.liyan.BMS.view;
+package liyan.BMS.view;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -24,8 +26,8 @@ import javax.swing.table.TableModel;
 
 import com.liyan.BMS.entity.Record;
 import com.liyan.BMS.entity.User;
-import com.liyan.BMS.service.BookService;
-import com.liyan.BMS.service.RecordService;
+import liyan.BMS.service.BookService;
+import liyan.BMS.service.RecordService;
 
 public class UserBookRecordView extends JInternalFrame {
 
@@ -105,10 +107,8 @@ public class UserBookRecordView extends JInternalFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				
-				//JOptionPane.showMessageDialog(UserBookRecordView.this,userId);
+
 				List<Record> recordList=RecordService.checkRecordByuserId(userId);
-				//JOptionPane.showMessageDialog(UserBookRecordView.this,recordList);
 				refreshtable(recordList);
 			}
 		});
@@ -120,31 +120,66 @@ public class UserBookRecordView extends JInternalFrame {
 			public void actionPerformed(ActionEvent e) {
 				String recordId=tfCondition.getText();
 				Record record=RecordService.checkRecordById(recordId);
-				Calendar a=Calendar.getInstance();
-				Calendar b=Calendar.getInstance();
-				a.setTime(new Date());
-				b.setTime(record.getLendTime());
-				long now=a.getTimeInMillis();
-				long lent=b.getTimeInMillis();
-				
-				long min=(now-lent)/(1000*60);
-				if(min>10) {
-					JOptionPane.showMessageDialog(UserBookRecordView.this,"超过归还时间,请联系管理员!");
-					return;
+				if(record==null){
+					JOptionPane.showMessageDialog(UserBookRecordView.this,"输入正确的记录编号！");
 				}else {
-					int status=BookService.returnBook(recordId);
-					if(status==1) {
-						JOptionPane.showMessageDialog(UserBookRecordView.this,"输入不正确,请重新输入!");
-					}else if(status==2) {
-						JOptionPane.showMessageDialog(UserBookRecordView.this,"你已经换过这本书,请勿重复操作!");
-					}else if(status==3) {
-						JOptionPane.showMessageDialog(UserBookRecordView.this,"还书成功!你的知识又提升一次!");
-					}else if(status==4) {
-						JOptionPane.showMessageDialog(UserBookRecordView.this,"还书失败!请重试!");
+					Calendar a = Calendar.getInstance();
+					Calendar b = Calendar.getInstance();
+					a.setTime(new Date());
+					b.setTime(record.getLendTime());
+					long now = a.getTimeInMillis();
+					long lent = b.getTimeInMillis();
+
+					long min = (now - lent) / (1000 * 60);
+					if (min > 10) {
+						JOptionPane.showMessageDialog(UserBookRecordView.this, "超过归还时间,请联系管理员!");
+
+					} else {
+						int status = BookService.returnBook(recordId);
+						if (status == 1) {
+							JOptionPane.showMessageDialog(UserBookRecordView.this, "输入不正确,请重新输入!");
+						} else if (status == 2) {
+							JOptionPane.showMessageDialog(UserBookRecordView.this, "你已经还过这本书,请勿重复操作!");
+						} else if (status == 3) {
+							JOptionPane.showMessageDialog(UserBookRecordView.this, "还书成功!你的知识又提升一次!");
+                            List<Record> recordList=RecordService.checkRecordByuserId(userId);
+                            refreshtable(recordList);
+						} else if (status == 4) {
+							JOptionPane.showMessageDialog(UserBookRecordView.this, "还书失败!请重试!");
+						}
 					}
 				}
 			}
 		});
+
+		table.addMouseListener(new MouseListener() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                int row = table.getSelectedRow();
+                String recordId = table.getValueAt(row,0).toString();
+                tfCondition.setText(recordId);
+            }
+
+            @Override
+            public void mousePressed(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseReleased(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+
+            }
+        });
 	}
 	
 	private class BookRecordInfoTableModel implements TableModel{

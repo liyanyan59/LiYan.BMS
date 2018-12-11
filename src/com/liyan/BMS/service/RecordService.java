@@ -1,8 +1,8 @@
-package com.liyan.BMS.service;
+package liyan.BMS.service;
 
 import java.util.List;
 
-import com.liyan.BMS.dao.impl.RecordDaoImpl;
+import liyan.BMS.dao.impl.RecordDaoImpl;
 import com.liyan.BMS.entity.Record;
 
 public class RecordService {

@@ -1,35 +1,27 @@
-package com.liyan.BMS.view;
-
-import java.awt.BorderLayout;
-import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JDesktopPane;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+package liyan.BMS.view;
 
 import com.liyan.BMS.entity.User;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class UserMainView extends JFrame {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private JPanel mainPanel=null;//主面板
-	private JPanel welPanel=null;//欢迎面板
-	private JPanel btnPanel=null;//按钮组面板
-	private JDesktopPane funcDesktop=null;//桌面面板
-	private JLabel deskLabel=null;//放图片
-	private JButton btnCheckBorrow=null;//查询借书按钮
-	private JButton btnBookRecord=null;//查看借书记录
-	private JButton btnExit = null;//退出按钮
+	private JPanel mainPanel=null;
+	private JPanel welPanel=null;
+	private JPanel btnPanel=null;
+	private JDesktopPane funcDesktop=null;
+	private JLabel deskLabel=null;
+	private JButton btnCheckBorrow=null;
+	private JButton btnBookRecord=null;
+	private JButton btnExit = null;
 	
-	private JLabel lbWelcome=null;//欢迎标题
+	private JLabel lbWelcome=null;
 	
 	
 	public UserMainView(User user) {
@@ -45,8 +37,8 @@ public class UserMainView extends JFrame {
 	private void init() {
 		mainPanel=new JPanel(new BorderLayout());
 		btnPanel=new JPanel(new GridLayout(7, 1, 0, 35));
-		btnCheckBorrow=new JButton("查询借书功能");
-		btnBookRecord=new JButton("借书记录及还书");
+		btnCheckBorrow=new JButton("查找书籍");
+		btnBookRecord=new JButton("查询记录");
 		btnExit=new JButton("退出");
 		btnPanel.add(btnCheckBorrow);
 		btnPanel.add(btnBookRecord);
@@ -56,10 +48,10 @@ public class UserMainView extends JFrame {
 		btnPanel.add(new JLabel());
 		btnPanel.add(btnExit);
 		
-		btnPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createRaisedBevelBorder(), "快捷键"));
+		btnPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createRaisedBevelBorder(), ""));
 		
 		welPanel=new JPanel();
-		lbWelcome=new JLabel("欢迎使用此图书管理系统");
+		lbWelcome=new JLabel("欢迎!!");
 		welPanel.add(lbWelcome);
 	
 		
@@ -75,7 +67,7 @@ public class UserMainView extends JFrame {
 		mainPanel.add(welPanel,BorderLayout.NORTH);
 		mainPanel.add(funcDesktop, BorderLayout.CENTER);
 		
-		this.setTitle("--图书管理系统--");
+		this.setTitle("用户界面");
 		this.getContentPane().add(mainPanel);
 		this.setSize(1000, 600);
 		this.setVisible(true);
@@ -91,8 +83,8 @@ public class UserMainView extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				UserCheckBorrowView cbv=new UserCheckBorrowView(user);
-				funcDesktop.add(cbv);//把指定的视图窗口添加到桌面容器当中
-				cbv.toFront();//视图显示在最前
+				funcDesktop.add(cbv);//??????????????????????????????
+				cbv.toFront();//???????????
 			}
 		});
 		
@@ -101,7 +93,7 @@ public class UserMainView extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				// TODO Auto-generated method stub
-				UserBookRecordView brv=new UserBookRecordView(user);
+				UserBookRecordView  brv=new UserBookRecordView (user);
 				funcDesktop.add(brv);
 				brv.toFront();
 			}

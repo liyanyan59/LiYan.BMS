@@ -1,9 +1,11 @@
-package com.liyan.BMS.view;
+package liyan.BMS.view;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,7 +24,7 @@ import javax.swing.table.TableModel;
 
 import com.liyan.BMS.entity.Book;
 import com.liyan.BMS.entity.User;
-import com.liyan.BMS.service.BookService;
+import liyan.BMS.service.BookService;
 
 public class UserCheckBorrowView extends JInternalFrame {
 
@@ -107,7 +109,7 @@ public class UserCheckBorrowView extends JInternalFrame {
 	}
 	
 	/*
-	 * 这里写actionlistener
+	 * 监听方法
 	 * */
 	private void registerListener(User user) {
 		btnSearch.addActionListener(new ActionListener() {
@@ -143,10 +145,40 @@ public class UserCheckBorrowView extends JInternalFrame {
 				}else if(status==2) {
 					
 					JOptionPane.showMessageDialog(UserCheckBorrowView.this,"借书成功!你将获得知识的乐趣!");
+					List<Book> bookList=BookService.checkAllBooks();
+					refreshtable(bookList);
 				}else if(status==3) {
 					JOptionPane.showMessageDialog(UserCheckBorrowView.this,"对不起,借书失败,请重试!");
 				}
 				
+			}
+		});
+		table.addMouseListener(new MouseListener() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				int row = table.getSelectedRow();
+				String bookId = table.getValueAt(row,0).toString();
+				tfBorrow.setText(bookId);
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+
 			}
 		});
 		

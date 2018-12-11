@@ -1,15 +1,10 @@
 package com.liyan.BMS.dao.impl;
 
 import java.lang.reflect.Field;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mysql.jdbc.PreparedStatement;
 
 
 
@@ -42,7 +37,7 @@ public class BaseDao {
 	/*
 	 * 释放相应的资源
 	 */
-	public void closeAll(ResultSet rs,java.sql.PreparedStatement pstmt,Connection conn) {
+	public void closeAll(ResultSet rs,PreparedStatement pstmt,Connection conn) {
 		try {
 			if(rs!=null) {
 				rs.close();

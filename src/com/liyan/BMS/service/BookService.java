@@ -1,4 +1,4 @@
-package com.liyan.BMS.service;
+package liyan.BMS.service;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,7 +7,7 @@ import java.util.List;
 import com.liyan.BMS.dao.BookDao;
 import com.liyan.BMS.dao.RecordDao;
 import com.liyan.BMS.dao.impl.BookDaoImpl;
-import com.liyan.BMS.dao.impl.RecordDaoImpl;
+import liyan.BMS.dao.impl.RecordDaoImpl;
 import com.liyan.BMS.entity.Book;
 import com.liyan.BMS.entity.Record;
 

@@ -1,9 +1,11 @@
-package com.liyan.BMS.view;
+package liyan.BMS.view;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +21,7 @@ import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
 
 import com.liyan.BMS.entity.Book;
-import com.liyan.BMS.service.BookService;
+import liyan.BMS.service.BookService;
 
 public class AdminCheckView extends JInternalFrame {
 
@@ -117,6 +119,34 @@ public class AdminCheckView extends JInternalFrame {
 					}
 				}
 				
+			}
+		});
+		table.addMouseListener(new MouseListener() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				int row = table.getSelectedRow();
+				String bookId = table.getValueAt(row,0).toString();
+				tfBookId.setText(bookId);
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+
 			}
 		});
 	}

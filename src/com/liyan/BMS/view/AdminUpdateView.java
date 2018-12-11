@@ -1,4 +1,4 @@
-package com.liyan.BMS.view;
+package liyan.BMS.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 import com.liyan.BMS.entity.Book;
-import com.liyan.BMS.service.BookService;
+import liyan.BMS.service.BookService;
 
 public class AdminUpdateView extends JInternalFrame {
 
