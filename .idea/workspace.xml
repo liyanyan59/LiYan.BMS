@@ -8,9 +8,252 @@
   <component name="ChangeListManager">
     <list default="true" id="65087e2a-f16d-4519-b670-7a397b615245" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/LiYan_BMS_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LiYan_BMS_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LiYan.BMS.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiYan.BMS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LiYan.BMS.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LiYan_BMS_jar/LiYan.BMS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LiYan_BMS_jar/LiYan.BMS.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/THIRDPARTYLICENSEREADME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/Welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/JAWTAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/JavaAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/WindowsAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/attach.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/awt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/bci.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/concrt140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/dcpr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/decora_sse.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/deploy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/dt_shmem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/dt_socket.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/dtplugin/deployJava1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/dtplugin/npdeployJava1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/eula.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/fontmanager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/fxplugins.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/glass.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/glib-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/gstreamer-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/hprof.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/instrument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/j2pcsc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/j2pkcs11.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jaas_nt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jabswitch.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/java-rmi.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/java.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/java.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/java_crw_demo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/javacpl.cpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/javacpl.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/javafx_font.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/javafx_font_t2k.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/javafx_iio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/javaw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/javaws.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jawt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jdwp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jfr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jfxmedia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jfxwebkit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jjs.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jli.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jp2iexp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jp2launcher.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jp2native.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jp2ssv.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jsdt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jsound.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/jsoundds.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/kcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/keytool.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/kinit.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/klist.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/ktab.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/lcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/management.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/mlib_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/nio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/npt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/orbd.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/pack200.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/plugin2/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/plugin2/npjp2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/policytool.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/prism_common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/prism_d3d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/prism_sw.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/resource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/rmid.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/rmiregistry.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/sawindbg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/server/classes.jsa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/server/jvm.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/servertool.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/splashscreen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/ssv.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/ssvagent.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/sunec.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/sunmscapi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/t2k.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/tnameserv.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/unpack.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/unpack200.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/verify.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/w2k_lsa_auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/wsdetect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/bin/zip.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/accessibility.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/amd64/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/calendars.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/charsets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/cmm/CIEXYZ.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/cmm/GRAY.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/cmm/LINEAR_RGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/cmm/PYCC.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/cmm/sRGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/content-types.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/currency.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/ffjcext.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_ja.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_ko.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_pt_BR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_sv.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_zh_HK.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/messages_zh_TW.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/splash.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/splash@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/splash_11-lic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/deploy/splash_11@2x-lic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/access-bridge-64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/cldrdata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/dnsns.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/jaccess.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/jfxrt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/localedata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/nashorn.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/sunec.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/sunjce_provider.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/sunmscapi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/sunpkcs11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/ext/zipfs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/flavormap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaBrightDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaBrightDemiItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaBrightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaBrightRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaSansDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaSansRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaTypewriterBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/fonts/LucidaTypewriterRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/hijrah-config-umalqura.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/cursors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/invalid32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/win32_CopyDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/win32_CopyNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/win32_LinkDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/win32_LinkNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/win32_MoveDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/images/cursors/win32_MoveNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/javafx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/javaws.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/jce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/jfr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/jfr/default.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/jfr/profile.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/jfxswt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/jsse.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/jvm.hprof.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/management-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/management/jmxremote.access" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/management/jmxremote.password.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/management/management.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/management/snmp.acl.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/resources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/rt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/blacklist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/javaws.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/policy/limited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/policy/limited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/policy/unlimited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/policy/unlimited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/security/trusted.libraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/lib/tzmappings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jre/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LiYan_BMS_jar/LiYan.BMS.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图书管理系统ByLY.exe" beforeDir="false" afterPath="$PROJECT_DIR$/图书管理系统ByLY.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -202,11 +445,6 @@
             </path>
             <path>
               <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiYan.BMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LiYan.BMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -294,7 +532,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="127" width="1704" height="878" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -304,9 +541,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21244925" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32882273" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32882273" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19403893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19403893" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" weight="0.32935917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
