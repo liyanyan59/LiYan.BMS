@@ -1,6 +1,6 @@
 package liyan.BMS.view;
 
-import com.liyan.BMS.entity.User;
+import liyan.BMS.entity.User;
 
 import javax.swing.*;
 import java.awt.*;

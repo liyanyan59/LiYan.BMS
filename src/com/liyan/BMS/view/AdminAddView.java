@@ -9,9 +9,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-import com.liyan.BMS.dao.impl.BookDaoImpl;
-import com.liyan.BMS.entity.Book;
-import com.liyan.BMS.entity.User;
+import liyan.BMS.dao.impl.BookDaoImpl;
+import liyan.BMS.entity.Book;
+import liyan.BMS.entity.User;
 import liyan.BMS.service.BookService;
 import liyan.BMS.service.UserService;
 

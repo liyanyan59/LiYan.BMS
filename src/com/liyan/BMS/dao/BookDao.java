@@ -1,8 +1,8 @@
-package com.liyan.BMS.dao;
+package liyan.BMS.dao;
 
 import java.util.List;
 
-import com.liyan.BMS.entity.Book;
+import liyan.BMS.entity.Book;
 
 public interface BookDao {
 	public boolean saveBook(Book book);//Ìí¼Óbook

@@ -3,7 +3,7 @@ package liyan.BMS.service;
 import java.util.List;
 
 import liyan.BMS.dao.impl.RecordDaoImpl;
-import com.liyan.BMS.entity.Record;
+import liyan.BMS.entity.Record;
 
 public class RecordService {
 	private static RecordDaoImpl recordDao=new RecordDaoImpl();

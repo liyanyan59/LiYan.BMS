@@ -1,7 +1,7 @@
 package liyan.BMS.view;
 
 import liyan.BMS.service.UserService;
-import com.liyan.BMS.entity.User;
+import liyan.BMS.entity.User;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;

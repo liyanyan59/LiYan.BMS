@@ -1,7 +1,7 @@
 package liyan.BMS.service;
 
 import liyan.BMS.dao.impl.UserDaoImpl;
-import com.liyan.BMS.entity.User;
+import liyan.BMS.entity.User;
 
 public class UserService {
 	

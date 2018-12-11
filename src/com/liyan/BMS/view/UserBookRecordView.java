@@ -13,7 +13,6 @@ import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
-//import javax.swing.JComboBox;
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -24,8 +23,8 @@ import javax.swing.JTextField;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
 
-import com.liyan.BMS.entity.Record;
-import com.liyan.BMS.entity.User;
+import liyan.BMS.entity.Record;
+import liyan.BMS.entity.User;
 import liyan.BMS.service.BookService;
 import liyan.BMS.service.RecordService;
 

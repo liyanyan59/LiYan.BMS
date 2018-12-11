@@ -4,12 +4,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import com.liyan.BMS.dao.BookDao;
-import com.liyan.BMS.dao.RecordDao;
-import com.liyan.BMS.dao.impl.BookDaoImpl;
+import liyan.BMS.dao.BookDao;
+import liyan.BMS.dao.RecordDao;
+import liyan.BMS.dao.impl.BookDaoImpl;
 import liyan.BMS.dao.impl.RecordDaoImpl;
-import com.liyan.BMS.entity.Book;
-import com.liyan.BMS.entity.Record;
+import liyan.BMS.entity.Book;
+import liyan.BMS.entity.Record;
 
 public class BookService {
 

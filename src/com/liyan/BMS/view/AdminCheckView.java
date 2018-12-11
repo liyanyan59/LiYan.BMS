@@ -20,7 +20,7 @@ import javax.swing.JTextField;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
 
-import com.liyan.BMS.entity.Book;
+import liyan.BMS.entity.Book;
 import liyan.BMS.service.BookService;
 
 public class AdminCheckView extends JInternalFrame {

@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 
-import com.liyan.BMS.entity.User;
+import liyan.BMS.entity.User;
 import liyan.BMS.service.UserService;
 
 import static liyan.BMS.service.UserService.isUserExist;

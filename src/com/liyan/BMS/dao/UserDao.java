@@ -1,6 +1,6 @@
-package com.liyan.BMS.dao;
+package liyan.BMS.dao;
 
-import com.liyan.BMS.entity.User;
+import liyan.BMS.entity.User;
 
 public interface UserDao {
 	public boolean saveUser(User user);//Ìí¼ÓÓÃ»§

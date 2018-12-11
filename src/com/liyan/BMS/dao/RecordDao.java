@@ -1,8 +1,8 @@
-package com.liyan.BMS.dao;
+package liyan.BMS.dao;
 
 import java.util.List;
 
-import com.liyan.BMS.entity.Record;
+import liyan.BMS.entity.Record;
 
 public interface RecordDao {
 	public Record checkRecordById(String recordId);//查看指定ID的book借还记录

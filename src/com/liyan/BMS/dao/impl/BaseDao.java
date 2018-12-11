@@ -1,4 +1,4 @@
-package com.liyan.BMS.dao.impl;
+package liyan.BMS.dao.impl;
 
 import java.lang.reflect.Field;
 import java.sql.*;

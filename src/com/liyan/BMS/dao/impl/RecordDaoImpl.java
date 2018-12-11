@@ -1,12 +1,12 @@
 package liyan.BMS.dao.impl;
 
-import com.liyan.BMS.dao.impl.BaseDao;
+import liyan.BMS.dao.impl.BaseDao;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.liyan.BMS.dao.RecordDao;
+import liyan.BMS.dao.RecordDao;
 
-import com.liyan.BMS.entity.Record;
+import liyan.BMS.entity.Record;
 
 public class RecordDaoImpl extends BaseDao implements RecordDao {
  
